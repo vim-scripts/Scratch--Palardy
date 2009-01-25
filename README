@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2524
+
+Short (< 50 lines) plugin to create scratch buffers.
+
+Scratch buffers are used to create new commands:
+
+* ScratchDiff ... compare current buffer against new scratch
+* ScratchFind ... runs a "find" command and outputs result in a new scratch
+
+ScratchFind is used to emulate most of the functionality of command-t in TextMate.
+
+Configure ScratchFind's behavior with the g:scratch_find_command variable.
+
+Review the code: http://github.com/jpalardy/etc_config/blob/dce22368aacc842ef6db058280e5fdf3057c0b12/vim/plugin/scratch.vim
